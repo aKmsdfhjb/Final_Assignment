@@ -64,6 +64,7 @@ python -m venv venv
 Activate the virtual environment:
 
 Windows:
+```
 Bash
 
 venv\Scripts\activate
@@ -72,16 +73,19 @@ Bash
 
 source venv/bin/activate
 Install required packages:
+```
+```
 
 Bash
 
 pip install -r requirements.txt
 Launch Jupyter Notebook:
+```
 
-Bash
 
 jupyter notebook
 How to Run the Notebook
+
 Open notebooks/Code.ipynb in Jupyter Notebook
 
 Update the file paths in the notebook to match your local directory structure:
@@ -102,6 +106,8 @@ Save all trained models to the models/ directory
 Expected runtime: 5-15 minutes depending on your hardware (GRU training takes the longest)
 
 Required Python Version
+```
+
 Python 3.8 or higher recommended
 Tested on Python 3.8, 3.9, and 3.10
 TensorFlow compatibility requires Python <= 3.11
@@ -117,7 +123,11 @@ Preprocessing Components
 tfidf_vectorizer.pkl: Fitted TF-IDF vectorizer (required for traditional ML model inference)
 label_encoder.pkl: Label encoder for sentiment classes (required for all models)
 tokenizer.pkl: Keras tokenizer for text sequences (required for GRU model inference)
+```
+
 Loading Saved Models
+
+```
 Python
 
 import joblib
@@ -131,6 +141,8 @@ label_encoder = joblib.load('models/label_encoder.pkl')
 # Load deep learning model
 gru_model = load_model('models/gru_model.h5')
 tokenizer = joblib.load('models/tokenizer.pkl')
+```
+
 Notes
 Ensure the dataset file dataset.csv is present in the data/ directory before running
 The dataset should contain at minimum two columns: 'Review' (text) and 'Sentiment' (label)
@@ -153,6 +165,7 @@ Kuikelaashutosh@gmail.com
 
 
 For questions or issues, please contact the author or refer to the project report in report/Report.pdf
+
 
 
 
