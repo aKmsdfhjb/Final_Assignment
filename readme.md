@@ -1,4 +1,4 @@
-Markdown
+
 
 # Sentiment Analysis Using Machine Learning and Deep Learning
 
@@ -9,7 +9,8 @@ This project implements a comprehensive sentiment analysis system that compares 
 The implementation demonstrates best practices in natural language processing, including text cleaning, TF-IDF vectorization for traditional ML models, sequence tokenization for neural networks, and systematic performance comparison across different algorithmic paradigms.
 
 ## Folder Structure
-text
+
+   ```bash
 
 FINAL_ASSIGNMENT/
 │
@@ -36,7 +37,8 @@ FINAL_ASSIGNMENT/
 ├── requirements.txt 
 └── README.md 
 
-text
+
+```
 
 
 ## Installation Instructions
@@ -151,5 +153,6 @@ Kuikelaashutosh@gmail.com
 
 
 For questions or issues, please contact the author or refer to the project report in report/Report.pdf
+
 
 
