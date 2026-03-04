@@ -9,6 +9,8 @@ This project implements a comprehensive sentiment analysis system that compares 
 The implementation demonstrates best practices in natural language processing, including text cleaning, TF-IDF vectorization for traditional ML models, sequence tokenization for neural networks, and systematic performance comparison across different algorithmic paradigms.
 
 ## Folder Structure
+text
+
 FINAL_ASSIGNMENT/
 │
 ├── data/
@@ -149,4 +151,5 @@ Kuikelaashutosh@gmail.com
 
 
 For questions or issues, please contact the author or refer to the project report in report/Report.pdf
+
 
